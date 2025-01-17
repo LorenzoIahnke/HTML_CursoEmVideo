@@ -3,33 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Others Formattings</title>
+    <title>Lists</title>
 </head>
 <body>
-    <h1>Others Formattings</h1>
+    <h1>Working with Lists</h1>
     <hr>
-    <h2>Source Code</h2>
-    <p>The <code>document.getElementById('teste')</code> is written in JavaScript language</p>
-    <pre>
-        <code>
-    num m = int(input('Digite um número'))
-    if num%2 == 0:
-        printf(f'O número {num} é PAR')
-    else:
-        printf(f'O número {num} é IMPAR')
-    print('Fim do Programa')
-        </code>
-    </pre>
-    <h2>Quotes</h2>
-    <p><q>Life is like riding a bicycle. To keep your balance, you must keep moving</q> - Albert Einsten</p>
-    <h2>Full Quotes</h2>
-    <p>According to Elizabeth Castro's book:</p>
-    <blockquote cite="https://www.google.com.br/books/edition/HTML_for_the_World_Wide_Web/Dq9L3KkDOFIC?hl=pt-BR&gbpv=1&dq=HTML&pg=PA35&printsec=frontcover">
-        URLs can be either absolute or relative. An absolute URL shows the entire path to the file, including the scheme, server name, the complete path, and the file name itself.
-    </blockquote>
-    <h2>Abreviations</h2>
-    <p>I'm studying <abbr title="Hypertext Markup Language">HTML</abbr> and <abbr title="Cascading Style Sheets">CSS</abbr>, I'm loving it!</p>
-    <h2>Inverted Text</h2>
-    <p><bdo dir="rtl">I'm learning things in HTML</bdo></p>
+    <h2>Ordered Lists</h2>
+    <ol type="1"> <!--1 A a I i-->
+        <li>Wake up</li>
+        <li>Have Breakfast</li>
+        <li>Take a Shower</li>
+        <li>Go to the Gym</li>
+        <li>Have lunch</li>
+    </ol>
+    <h2>Unordered Lists</h2>
+    <ul> <!--disc circle square-->
+        <li>Bread</li>
+        <li>Milk</li>
+        <li>Rice</li>
+        <li>Beans</li>
+        <li>Lettuce</li>
+    </ul>
+    <h2>My favorite languages</h2>
+    <ol>
+        <li>Old</li>
+        <ol type="a">
+            <li>VisualG</li>
+            <li>Delphi</li>
+            <li>Scratch</li>        
+        </ol>
+        <li>New</li>
+        <ol type="a" start="4">
+            <li>Pyhton</li>
+            <li>PHP</li>
+            <li>Java</li>
+        </ol>
+    </ol>
+    <h2>My favorite games</h2>
+    <ol>
+        <li>Nintendo Wii</li>
+        <ul type="square">
+            <li>Wii Sports</li>
+            <ul type="circle">
+                <li>Wii Resort</li>
+            </ul>
+            <li>Mario Party</li>
+            <ul type="circle">
+                <li>Mario Party 9</li>
+            </ul>
+        </ul type="square">
+        <li>Playstation 3</li>
+        <ul type="square">
+            <li>Batman Arkham</li>
+            <ul type="circle">
+                <li>Batman Arkham City</li>
+                <li>Batman Arkham Asylum</li>
+                <li>Batman Arkham Origins</li>
+            </ul>
+            <li>Lego</li>
+            <ul type="circle">
+                <li>Lego Batman</li>
+                <li>Lego Movie</li>
+                <li>Lego Marvel Superheroes</li>
+            </ul>
+        </ul type="square">
+        <li>Computer</li>
+        <ul type="square">
+            <li>Counter Strike</li>
+            <li>Fortnite</li>
+        </ul type="square">
+    </ol>
+    <h2>Definition Lists</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hypertext Markup Language that is responsible to content creating of a site</dd>
+        <dt>CSS</dt>
+        <dd>Markup Language to the creation of the design of a site</dd>
+    </dl>
 </body>
 </html>

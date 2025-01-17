@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medias in HTML</title>
+</head>
+<body>
+    <h1>Dynamic Image</h1>
+    <p>Try to open this site in other devices, or just try to Enlarge or Shrink the screen</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="images/small-picture.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="images/medium-picture.png" type="image/png">
+        <img src="images/big-picture.png" alt="Big Picture">
+    </picture>
+    <h1>Playing an audio</h1>
+    <p>We're learning how to upload audio media in HTML</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="media/Sad Sunday - E's Jammy Jams.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>
